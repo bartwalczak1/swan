@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "swan"
+version = "0.1.0"
+description = ""
+authors = ["Bart Walczak <b.walczak85@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.87.0"
+uvicorn = "^0.20.0"
+requests = "^2.28.1"
+jsonschema = "^4.17.1"
+pydantic = "^1.10.2"
+pandas = "^1.5.2"
+sqlalchemy = "^1.4.44"
+fastapi-pagination = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
